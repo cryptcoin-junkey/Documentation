@@ -758,11 +758,11 @@ Get a listing of UTXOs for the specified address.
 
   A list of objects, with each entry in the dict having the following properties:
   
-    - **amount**: The amount of the UTXO
-    - **confirmations**: Number of confirmations since the UTXO was created
-    - **scriptPubKey**: The UTXO's scriptPubKey, encoded in hex format
-    - **txid**: The txid (hash) that the UTXO was included in
-    - **vout**: The vout number in the specified txid for the UTXO
+  - **amount**: The amount of the UTXO
+  - **confirmations**: Number of confirmations since the UTXO was created
+  - **scriptPubKey**: The UTXO's scriptPubKey, encoded in hex format
+  - **txid**: The txid (hash) that the UTXO was included in
+  - **vout**: The vout number in the specified txid for the UTXO
 
 
 ###getrawtransaction
@@ -830,11 +830,11 @@ Get transaction info, as parsed by `counterparty-server`.
 
   A list with the following items (in order as listed below):
   
-    - `source`
-    - `destination`
-    - `btc_amount`
-    - `fee`
-    - `data`: The embedded raw protocol data, in hexadecimal-serialized format
+  - `source`
+  - `destination`
+  - `btc_amount`
+  - `fee`
+  - `data`: The embedded raw protocol data, in hexadecimal-serialized format
 
 
 ###search_pubkey
