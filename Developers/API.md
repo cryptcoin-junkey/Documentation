@@ -752,7 +752,7 @@ Get a listing of UTXOs for the specified address.
 
   * **address** (*string*): The address for which to receive the UTXO listing
   * **unconfirmed** (*boolean*): Set to `true` to include unconfirmed UTXOs (e.g. those in the mempool)
-  * **unspent_tx_hash** (*boolean*): Specify a specific transaction hash to only include UTXOs from that transaction
+  * **unspent_tx_hash** (*string*): Specify a specific transaction hash to only include UTXOs from that transaction
 
 **Return:** 
 
